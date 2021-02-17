@@ -1,0 +1,44 @@
+{
+  "name": "@sirwindfield/chiisai-ui",
+  "version": "1.0.0",
+  "description": "A small UI components library for tailwind",
+  "author": "SirWindfield",
+  "repository": "https://github.com/SirWindfield/chiisai-ui",
+  "license": "MIT",
+  "main": "src/index.js",
+  "keywords": [
+    "chiisai",
+    "small",
+    "tailwind",
+    "tailwindcss",
+    "ui",
+    "ui-library",
+    "ui-components"
+  ],
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "tailwindcss build demo/styles.css -o demo/output.css -c demo/tailwind.config.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.3",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "tinycolor2": "^1.4.2"
+  }
+}

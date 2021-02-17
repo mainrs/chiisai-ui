@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chiisai UI</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="output.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Small UI components, created with Tailwind CSS."
+    />
+    <meta name="keywords" content="UI Components, Tailwind, Tailwind CSS" />
+  </head>
+  <body>
+    <div class="container p-16 flex flex-col space-y-12">
+      <header>
+        <h1 class="text-center font-bold text-5xl mb-2">Chiisai UI</h1>
+        <h2 class="text-lg text-center mb-16">Small UI components</h2>
+      </header>
+
+      <!-- Buttons -->
+      <div>
+        <h3 class="mb-2">Buttons</h3>
+        <div class="grid grid-cols-2 grid-rows-2 gap-4">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-primary" disabled>Primary Disabled</button>
+          <button class="btn btn-outline">Outline</button>
+          <button class="btn btn-outline" disabled>Outline Disabled</button>
+        </div>
+      </div>
+
+      <!-- Forms -->
+      <div>
+        <h3 class="mb-2">Forms</h3>
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-gray-700">Surname</span>
+            <input
+              type="text"
+              class="form-input mt-1 block w-full"
+              placeholder="John"
+            />
+          </label>
+          <label class="block">
+            <span class="text-gray-700">Name</span>
+            <input
+              type="text"
+              class="form-input mt-1 block w-full"
+              placeholder="Doe"
+            />
+          </label>
+
+          <label class="block">
+            <span class="text-gray-700">Pet of Choice</span>
+            <select class="form-select mt-1 block w-full">
+              <option>United States of America</option>
+              <option>Canada</option>
+              <option>Japan</option>
+              <option>Australia</option>
+            </select>
+          </label>
+
+          <label class="block">
+            <span class="text-gray-700">Notes</span>
+            <textarea
+              class="form-textarea mt-1 block w-full"
+              rows="3"
+              placeholder="Write something..."
+            ></textarea>
+          </label>
+
+          <label class="block">
+            <span class="text-gray-700">Receive newsletters?</span>
+            <input type="checkbox" class="form-checkbox" />
+          </label>
+
+          <label class="flex flex-col col-start-1">
+            <span class="text-gray-700">Favorite color?</span>
+            <div>
+              <label class="inline-flex items-center">
+                <input
+                  type="radio"
+                  class="form-radio"
+                  name="age-group"
+                  value="cat"
+                />
+                <span class="ml-2">Red</span>
+              </label>
+              <label class="inline-flex items-center ml-6">
+                <input
+                  type="radio"
+                  class="form-radio"
+                  name="age-group"
+                  value="kitty"
+                />
+                <span class="ml-2">Blue</span>
+              </label>
+              <label class="inline-flex items-center ml-6">
+                <input
+                  type="radio"
+                  class="form-radio"
+                  name="age-group"
+                  value="kitty"
+                />
+                <span class="ml-2">Green</span>
+              </label>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div>
+        <h3>Cards</h3>
+        <div class="grid grid-cols-2 gap-8 p-4">
+          <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
+            dolor at odio lobortis semper at ac magna. Curabitur mattis turpis
+            nunc, quis laoreet lorem laoreet non. Maecenas gravida feugiat urna
+            at convallis. Quisque convallis nec purus eu varius. Nullam sit amet
+            accumsan nibh. Mauris viverra, felis sit amet eleifend viverra, nibh
+            ligula aliquam ligula, sit amet efficitur purus justo mollis ante.
+            Aliquam erat volutpat. Praesent fermentum sollicitudin congue. Donec
+            nec nulla ullamcorper, vulputate orci a, aliquet nisl.
+          </div>
+          <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
+            dolor at odio lobortis semper at ac magna. Curabitur mattis turpis
+            nunc, quis laoreet lorem laoreet non. Maecenas gravida feugiat urna
+            at convallis. Quisque convallis nec purus eu varius. Nullam sit amet
+            accumsan nibh. Mauris viverra, felis sit amet eleifend viverra, nibh
+            ligula aliquam ligula, sit amet efficitur purus justo mollis ante.
+            Aliquam erat volutpat. Praesent fermentum sollicitudin congue. Donec
+            nec nulla ullamcorper, vulputate orci a, aliquet nisl.
+          </div>
+          <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
+            dolor at odio lobortis semper at ac magna. Curabitur mattis turpis
+            nunc, quis laoreet lorem laoreet non. Maecenas gravida feugiat urna
+            at convallis. Quisque convallis nec purus eu varius. Nullam sit amet
+            accumsan nibh. Mauris viverra, felis sit amet eleifend viverra, nibh
+            ligula aliquam ligula, sit amet efficitur purus justo mollis ante.
+            Aliquam erat volutpat. Praesent fermentum sollicitudin congue. Donec
+            nec nulla ullamcorper, vulputate orci a, aliquet nisl.
+          </div>
+          <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis
+            dolor at odio lobortis semper at ac magna. Curabitur mattis turpis
+            nunc, quis laoreet lorem laoreet non. Maecenas gravida feugiat urna
+            at convallis. Quisque convallis nec purus eu varius. Nullam sit amet
+            accumsan nibh. Mauris viverra, felis sit amet eleifend viverra, nibh
+            ligula aliquam ligula, sit amet efficitur purus justo mollis ante.
+            Aliquam erat volutpat. Praesent fermentum sollicitudin congue. Donec
+            nec nulla ullamcorper, vulputate orci a, aliquet nisl.
+          </div>
+        </div>
+      </div>
+
+      <!-- Tags -->
+      <div>
+        <h3>Tags</h3>
+        <div class="flex flex-row space-x-2">
+          <span class="tag tag-blue">info</span>
+          <span class="tag tag-yellow">warning</span>
+          <span class="tag tag-red">error</span>
+          <span class="tag tag-green">success</span>
+          <span class="tag tag-indigo">indigo</span>
+          <span class="tag tag-purple">purple</span>
+          <span class="tag tag-pink">pink</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
