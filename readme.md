@@ -1,6 +1,6 @@
 # Chiisai UI
 
-> A micro UI component library based on Tailwind CSS. Inspired by [Sail UI](https://sailui.github.io/ui/).
+> A micro UI component library based on Tailwind CSS. Inspired by [Sail UI](https://sailui.github.io/ui/). You can view the demo page at https://chiisai.zerotask.net.
 
 ## Installation
 
